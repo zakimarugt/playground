@@ -1,0 +1,2 @@
+# フォローしているユーザーアカウントのポストが返される
+* レスポンスのボディがファイルパス"src/test/resources/com/learning/ddd/userAccounts/userAccountId/followees/posts/get/expected.json"のjsonと一致している

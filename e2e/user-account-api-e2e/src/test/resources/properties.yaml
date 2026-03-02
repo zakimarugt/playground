@@ -1,0 +1,13 @@
+userAccountApi:
+  host: localhost
+  port: 5182
+userAccountDb:
+  urlPrefix: "jdbc:mysql://"
+  driver: com.mysql.cj.jdbc.Driver
+  host: 127.0.0.1
+  port: 3306
+  database: user_account
+  username: user_account_db_user
+  password: asdf
+
+

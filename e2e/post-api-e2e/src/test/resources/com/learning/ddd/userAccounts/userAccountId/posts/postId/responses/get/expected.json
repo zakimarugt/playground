@@ -1,0 +1,19 @@
+{
+  "targetId": "1",
+  "responses": [
+    {
+      "id": "1",
+      "responderAccountId": "2",
+      "content": "Response Content 1",
+      "likeCount": 0,
+      "repostedCount": 0
+    },
+    {
+      "id": "2",
+      "responderAccountId": "3",
+      "content": "Response Content 2",
+      "likeCount": 1,
+      "repostedCount": 1
+    }
+  ]
+}

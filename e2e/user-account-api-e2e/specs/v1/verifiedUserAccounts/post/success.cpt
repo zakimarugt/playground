@@ -1,0 +1,2 @@
+# 未承認ユーザアカウントが認証済みユーザーアカウントとしてDBに登録されている
+* テーブルの状態が"src/test/resources/v1/verifiedUserAccounts/post/success/expected/"の内容に一致する

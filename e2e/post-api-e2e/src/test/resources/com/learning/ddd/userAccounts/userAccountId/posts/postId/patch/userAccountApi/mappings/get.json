@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/userAccounts/1"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": "1",
+      "userName": "test user",
+      "emailAddress": "test@example",
+      "type": "PERSONAL"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# 自分のポストが返される
+* レスポンスのボディがファイルパス"src/test/resources/com/learning/ddd/userAccounts/userAccountId/posts/get/expected.json"のjsonと一致している

@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "postId": "1",
+      "content": "Post content 1"
+    },
+    {
+      "postId": "2",
+      "content": "Post content 2"
+    },
+    {
+      "postId": "3",
+      "content": "Post content 3"
+    },
+    {
+      "postId": "4",
+      "content": "Post content 4"
+    }
+  ]
+}

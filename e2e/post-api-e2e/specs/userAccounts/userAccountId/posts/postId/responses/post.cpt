@@ -1,0 +1,2 @@
+# レスポンスの一覧を返される
+* レスポンスのボディがファイルパス"src/test/resources/com/learning/ddd/userAccounts/userAccountId/posts/postId/responses/get/expected.json"のjsonと一致している

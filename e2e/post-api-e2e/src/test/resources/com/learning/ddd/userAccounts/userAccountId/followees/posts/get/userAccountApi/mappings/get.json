@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/userAccounts/12345/followees/ids"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "followeeIds": ["1", "2", "3"]
+    }
+  }
+}

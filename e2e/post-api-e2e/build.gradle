@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'org.gauge' version '1.8.2'
+    id 'org.jetbrains.kotlin.jvm' version '2.2.21'  // kotlin入れたら入った
+}
+
+group 'post-api-e2e'
+version '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = 21
+    targetCompatibility = 21
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'com.thoughtworks.gauge:gauge-java:0.10.3'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.20.2'
+    testImplementation "org.dbunit:dbunit:2.8.0"
+    testImplementation 'org.wiremock:wiremock-standalone:3.13.0'
+    testImplementation "com.squareup.okhttp3:okhttp:4.12.0"
+    testImplementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.15.+"
+    testImplementation "org.amshove.kluent:kluent:1.73"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.11.0"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"  // kotlin入れたら入った
+    implementation "com.natpryce:konfig:1.6.10.0"
+    implementation 'mysql:mysql-connector-java:8.0.33'
+}
+
+// kotlin入れたら入った
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+// kotlin入れたら入った
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}

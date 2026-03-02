@@ -1,0 +1,2 @@
+# DBの状態が変わらない
+* テーブルの状態が"src/test/resources/v1/verifiedUserAccounts/post/validation-error/expected/"の内容に一致する

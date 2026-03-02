@@ -1,0 +1,2 @@
+# ユーザーアカウントがDBに登録されている
+* テーブルの状態が"src/test/resources/v1/unVerifiedUserAccounts/post/expected/"の内容に一致する

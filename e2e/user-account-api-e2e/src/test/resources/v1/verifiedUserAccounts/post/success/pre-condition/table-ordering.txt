@@ -1,0 +1,4 @@
+verification_tokens
+unverified_user_accounts
+verification_token_mappings
+verified_user_accounts
